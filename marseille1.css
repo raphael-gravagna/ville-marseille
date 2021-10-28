@@ -1,0 +1,115 @@
+/*///////ANNONCE/////*/
+
+.rgannonce {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    height: auto;
+    width: auto;
+    box-shadow: 5px 5px 5px 5px rgb(185 188 190);
+    padding: 10px;
+}
+
+
+.mistertbfm {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.mistert {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+}
+
+.rgbfmlogo {
+    height: 60px;
+    width: 60px;
+    z-index: 2;
+    position: relative;
+}
+
+.texteannonce {
+    height: auto;
+    width: 800px;
+    margin-top: -20px;
+    
+}
+
+
+
+
+/*///////ARTICLES/////*/
+
+.rgfiguresamia{
+    height: auto;
+    width: 30vh;
+    border: 1px solid rgb(52, 145, 182);
+    margin: 30px 30px 30px 30px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    border-radius:30px;
+    box-shadow: 5px 5px 5px 5px rgb(185 188 190);
+    
+}
+
+.photosamia {
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    border-radius:20px 20px 0px 0px;
+
+}
+
+.backgroundsamia {
+    background-color: blue;
+    position: relative;
+    opacity: 30%;
+    height: 100px;
+    z-index: 2;
+    bottom: 350px;
+
+}
+
+.rgtexte1 {
+    margin-left: 5px;
+    z-index: 5;
+    height: auto;
+    width: 86%;
+    COLOR: white;
+    position: absolute;
+    z-index: 10;
+    margin-top: -436px;
+    text-align: center;
+    text-align: justify;
+}
+
+.textearti {
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.logogora {
+    height: 50px;
+    width: 50px;
+    align-items: end;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 60%;
+    z-index: 15;
+
+
+}
+
+
+.rgsection {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 50px;
+}
+
