@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+
+
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+}
+
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+  /*/////////////HEADER//////////////*/
+
+
+
+
+header{
+    display: flex;
+    position: fixed ;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+
+.logo{
+    display: flex;
+    float: left;
+    margin-top: 8px;
+    margin-left: 5px;
+
+}
+
+.logo h1{
+    font-family: 'Andada Pro', serif;
+    color: #195d9c ;
+}
+
+.logo img{
+    margin-right: 20px;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0px;
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0%;
+    text-align: center;
+    margin: 0%;
+    text-decoration: underline;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #195d9c;
+    font-size: 15px;
+    
+}
+
+nav ul li a:hover {
+    color: #fca02c;
+}
+
+
+
+/*//////////////IMAGE BANDEAU///////////////*/
+
+
+.heroPhoto{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url("https://www.marseille-tourisme.com/app/uploads/marseille-tourisme/2020/06/thumbs/cte-bleue-pont-ferrovirecmomtcm-2-1920x960.jpg");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    margin-top: 70px;
+
+
+}
+
+/* POP UP SUR IMAGE BANDEAU*/
+
+.invisible{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    opacity: 0;
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.invisible p{
+    color: #fff;
+    width: 800px;
+    height: 400px;
+    font-size: 30px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.invisible:hover{
+    opacity: 0.5;
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:0.6;}
+  }
+
+
+
+
+
+
+/*///TABLEAUX////*/
+
+ section{
+    display: flex;
+    align-content: flex-start;
+    margin-top: 12%;
+    margin-bottom: 1.5%;
+}
+
+
+.entête {
+    display: flex;
+    align-content: flex-start;
+    color: #195d9c;
+    font-size: 15px;
+    margin-bottom: -2%;
+    flex-basis: 40%;
+  }
+
+.entête2 {
+    display: flex;
+    align-content: flex-start;
+    color: #195d9c;
+    font-size: 15px;
+    margin-bottom: -2%;
+    flex-basis: 40%; 
+}
+
+.entête3 {
+    display: flex;
+    align-content: flex-start;
+    color: #195d9c;
+    font-size: 15px;
+    margin-bottom: -2%;
+    flex-basis: 40%; 
+}
+
+.entête4 {
+    display: flex;
+    align-content: flex-start;
+    color: #195d9c;
+    font-size: 15px;
+    margin-bottom: -2%;
+    flex-basis: 40%; 
+}
+
+.entête5 {
+    display: flex;
+    align-content: flex-start;
+    color: #195d9c;
+    font-size: 15px;
+    margin-bottom: -2%;
+    flex-basis: 40%; 
+}
+
+.entête6 {
+    display: flex;
+    align-content: flex-start;
+    color: #195d9c;
+    font-size: 15px;
+    margin-bottom: -2%;
+    flex-basis: 40%; 
+}
+
+.entête7 {
+    display: flex;
+    align-content: flex-start;
+    color: #195d9c;
+    font-size: 15px;
+    margin-bottom: -2%;
+    flex-basis: 40%; 
+}
+
+.entête8 {
+    display: flex;
+    align-content: flex-start;
+    color: #195d9c;
+    font-size: 15px;
+    margin-bottom: -2%;
+    flex-basis: 40%; 
+}
+
+.entête9 {
+    display: flex;
+    align-content: flex-start;
+    color: #195d9c;
+    font-size: 15px;
+    margin-bottom: -2%;
+    flex-basis: 40%; 
+}
+
+.entêtebis {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 4px;
+    color: #ffffff;
+}
+
+.grid9 {
+    margin-bottom: 10%;
+}
+
+
+th {
+
+    border: 2.5px solid;
+    padding: 20px;
+    width: 35%;
+    background: #195d9c;
+    color: #e1e1e1;
+    opacity: 1;
+}
+
+
+
+/*///////////////FOOTER//////////////*/
+    
+
+
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+  
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+  background-color: #195d9c;
+  padding: 70px 0;
+  bottom: 0px;
+}
+.column{
+   width: 25%;
+   padding: 0 15px;
+}
+.column h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.column h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #fca02c;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.column ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.column ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.column ul li a:hover{
+color: #ffffff;
+padding-left: 8px;
+}
