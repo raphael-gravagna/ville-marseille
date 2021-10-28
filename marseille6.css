@@ -9,24 +9,25 @@
     margin-top: 70px;
 }
     
+body{
+    background-color: ivory;
+}
 
 .blockEnsemble{
     margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 50px;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
 .blockEnsemble2{
     margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 50px;
 }
 
 
@@ -37,17 +38,16 @@ figure{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    width: 25%;
+    width: 35%;
     height: auto;
-    border: solid #35a6e8;
+    /*border: solid #35a6e8;*/
     border-radius: 25px;
-    box-shadow: 10px 5px 5px lightskyblue;
-
-   -webkit-transition: all 0.3s ease; /* Safari et Chrome */
+    box-shadow: 5px 5px 5px 5px lightskyblue;
+    transition: all 0.3s ease; /* Safari et Chrome */
 }
 
 figure:hover{
-   -webkit-transform:scale(1.1); /* Safari et Chrome */
+   transform:scale(1.1); /* Safari et Chrome */
 }
 
 

@@ -168,7 +168,7 @@ section {
     color: #195d9c;
 }
 
-.texte {
+.title_text {
     margin-top: 7%;
     font-size: 25px;
     margin-left: 7vh;
@@ -180,7 +180,8 @@ section {
     margin-left: 2%;
     margin-top: 7%;
     margin-bottom: 5%;
-    height: 50vh
+    height: 50vh;
+    border-radius: 20%;
 }
 
 
