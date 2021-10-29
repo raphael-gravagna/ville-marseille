@@ -1,95 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
-
-
-
-
-
-
-body{
-    margin: 0%;
-    padding: 0%;
-   /* width: 100%;*/
-    font-family: 'Barlow', sans-serif;
-}
-
-h1{
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-  /*/////////////HEADER//////////////*/
-
-
-
-
-header{
-    display: flex;
-    position: fixed ;
-    top: 0px;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-    width: 100%;
-    height: 80px;
-    background-color: #fff;
-}
-
-.logo{
-    display: flex;
-    float: left;
-    margin-top: 8px;
-    margin-left: 5px;
-
-}
-
-.logo h1{
-    font-family: 'Andada Pro', serif;
-    color: #195d9c ;
-}
-
-.logo img{
-    margin-right: 20px;
-}
-
-nav{
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    top: 0px;
-}
-
-
-
-nav ul{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0%;
-    text-align: center;
-    margin: 0%;
-    text-decoration: underline;
-}
-
-nav ul li{
-    display: inline-block;
-    padding: 20px;
-    
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: #195d9c;
-    font-size: 15px;
-    
-}
-
-nav ul li a:hover {
-    color: #fca02c;
-}
-
-
 
 /*//////////////IMAGE BANDEAU///////////////*/
 
@@ -102,52 +10,10 @@ nav ul li a:hover {
     width: 100%;
     height: 80vh;
     background-size: cover;
-    margin-top: 0px;
+    margin-top: -90px;
 
 
 }
-
-/* POP UP SUR IMAGE BANDEAU*/
-
-.invisible{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    opacity: 0;
-    width: 100%;
-    height: 80vh;
-    
-}
-
-.invisible p{
-    color: #fff;
-    width: 800px;
-    height: 400px;
-    font-size: 30px;
-    margin-right: 50px;
-    margin-top: 50px;
-}
-
-.invisible:hover{
-    opacity: 0.5;
-    background-color: black;
-    width: 100%;
-    height: 80vh;
-
-    animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
-    -moz-animation: fadeIn 3s;
-    -o-animation: fadeIn 3s;
-    -ms-animation: fadeIn 3s;
-  }
-  @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:0.6;}
-  }
-
-
-
-
 
 
 /*///TABLEAUX////*/

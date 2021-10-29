@@ -42,6 +42,19 @@
 
 
 
+.heroPhoto{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url("https://img.static-af.com/images/meta/IDname/CITY-MRS-1?aspect_ratio=2:1&max_width=1920");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    margin-top: 70px;
+    }
+   
+    
+
 /*///////ARTICLES/////*/
 
 .rgfiguresamia{

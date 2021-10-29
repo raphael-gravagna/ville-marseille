@@ -94,61 +94,6 @@ nav ul li a:hover {
     color: #fca02c;
 }
 
-
-/*MENU DEROULANT*/
-
-/*.dropdown{
-    position: relative;
-}
-
-
-.dropdown button{
-    text-decoration: none;
-    color: #195d9c;
-    font-size: 15px;
-} 
-
-.dropdown button{
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    text-decoration: underline;
-} 
-
-.dropdown button:hover{
-    color:#fca02c;
-} 
-
-.contenu{
-    display: none;
-    color: black;
-    padding: 2px;
-
-}
-
-.dropdown:hover .contenu{
-    display: block; 
-    display: flex;
-    flex-direction: column;  
-    position: absolute;
-    margin-top: 0px;
-    width: 200px;
-}
-
-.contenu a{
-    margin: 2px 0px 2px 0px ;
-    padding: 20px;
-    font-size: 15px;
-    background-color: #fff;
-    border: solid 0.8px blue;
-    border-radius: 5px;
-}
-
-.contenu a:hover{
-    color: #fca02c ;
-}*/
-
 /*//////////////IMAGE BANDEAU///////////////*/
 
 
